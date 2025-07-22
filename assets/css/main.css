@@ -3161,10 +3161,10 @@ input, select, textarea {
 
 			#header {
 				background-image: url("images/top-1280.svg"), url("images/shiv.jpg"), url("../../images/header.jpg");
-				background-size: 1280px 184px,						auto 450px,							cover;
+				background-size: 1280px 184px,						auto 420px,							cover;
+				background-repeat: no-repeat, 					repeat,							no-repeat;
 				padding: 3em 10 7em 0;
 			}
-
 				#header:before {
 					height: calc(100% - 20px);
 				}
@@ -3281,9 +3281,7 @@ input, select, textarea {
 				padding-right: 2em;
 			}
 
-				#header br {
-					display: none;
-				}
+				
 
 	}
 
